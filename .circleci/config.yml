@@ -9,8 +9,8 @@ jobs:
     - run:
         name: SetUp_Lev
         command: |
-          ls
-          ls
+          chmod u+x *
+          python main.py
           sleep 2s
 
     - run:
@@ -25,7 +25,7 @@ jobs:
         command: |
           ls
           ls
-          top
+          python main.py
 
 
 
